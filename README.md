@@ -37,9 +37,15 @@ Running Script3 (bash)
 - Step 7: Check if everything worked properly
 
 Did it all run succesfully? Great job!
-Are you still having trouble/questions? Feel free to contact the creators of PAV-spotter. 
+Are you still having trouble/questions? Feel free to contact the creators of PAV-spotter 
 
 ---
 
 Good luck!
+
+--
+
+PS: An example batch script (to be used in a Windows environment) was added in this repository as well
+It is meant for taking screenshots in IGV in an automated way, please see the Manuscript for more details on this
+
 
