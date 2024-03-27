@@ -22,16 +22,16 @@ Also, we refer to the Manuscript and the explanatory text in each of the Scripts
 Running Script1 (batch/SLURM)
 
 - Step 1: Have your BAM files ready
-- Step 2: Fill in (or remove) the #SBATCH lines + customize Script1 manually for running locally
+- Step 2: Fill in (or remove) the #SBATCH lines + customize Script1 manually for running remotely
 - Step 3: Run Script1 to generate input files/format required for PAV-spotter (Script2)
 
 Running Script2 (batch/SLURM)
 
-- Step 4: Fill in (or remove) the #SBATCH lines + manually adjust Script2a
+- Step 4: Fill in (or remove) the #SBATCH lines + manually adjust Script2a for running remotely
 - (Extra step: Customize Script2b manually if necessary, but this is less likely to be necessary) 
-- Step 5: Run Script2a, which will call automatically Script2b, to generate output files/format required for Script3
+- Step 5: Run Script2a, which will automatically kickstart Script2b, to generate output files/format required for Script3
 
-Running Script3 (batch)
+Running Script3 (bash)
 
 - Step 6: Manually adjust Script3 for running locally
 - Step 7: Check if everything worked properly
