@@ -1,32 +1,45 @@
 # PAVspotter
 
+
 Hello! Welcome to the PAV-spotter pipeline.
 
-In order to run the scripts succesfully, you may need to manually adjust some identifiers, path- and filenames, and settings. 
-So make sure you download the scripts and adjust them to your own need. We briefly explain how best to do this below and
-refer to the Manuscript and the explanatory text in each of the Scripts for more detail.
+---
 
+In order to run the scripts succesfully, you may need to manually adjust some;
+- identifiers, 
+- pathnames, 
+- filenames, 
+- settings, 
+- and more
+ 
+Thus, make sure you download the scripts and adjust them to your own need.
 
+We briefly explain how best to do this below.
+Also, we refer to the Manuscript and the explanatory text in each of the Scripts for more detail.
 
-Step 1: Running Script1
+---
 
-- Have your BAM files ready
-- Fill in (or remove) the #SBATCH lines + manually adjust Script1 for running locally
-- Run Script1 to generate input files/format required for PAV-spotter, Script2
+Running Script1 (batch/SLURM)
 
+- Step 1: Have your BAM files ready
+- Step 2: Fill in (or remove) the #SBATCH lines + customize Script1 manually for running locally
+- Step 3: Run Script1 to generate input files/format required for PAV-spotter (Script2)
 
+Running Script2 (batch/SLURM)
 
-Step 2: Running Script2
+- Step 4: Fill in (or remove) the #SBATCH lines + manually adjust Script2a
+- (Extra step: Customize Script2b manually if necessary, but this is less likely to be necessary) 
+- Step 5: Run Script2a, which will call automatically Script2b, to generate output files/format required for Script3
 
-- Fill in (or remove) the #SBATCH lines + manually adjust Script2a
-- Manually adjust Script2b if necessary (in general, this is likely unnecessary) 
-- Run Script2a, which will call automatically Script2b, to generate output files/format required for Script3
+Running Script3 (batch)
 
+- Step 6: Manually adjust Script3 for running locally
+- Step 7: Check if everything worked properly
 
+Did it all run succesfully? Great job!
+Are you still having trouble/questions? Feel free to contact the creators of PAV-spotter. 
 
-Step 3: Running Script3
+---
 
-- 
-
-
+Good luck!
 
