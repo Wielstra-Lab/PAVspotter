@@ -14,8 +14,9 @@
 
 ###### CONTEXT
 
-###### This (SLURM) script - Script 1 - is written by Manon de Visser. 
+###### This (SLURM) script - Script1 - is written by Manon de Visser and serves as an example 
 ###### It is published with the Manuscript and it performs upstream filename + folder structure arrangements
+
 ###### With each command comes an explanation, as to facilitate any user to customize the script for ones own need
 ###### This script creates depth files from (deduplicated) BAM files and uses them to create an input file for the cross-correlation/PAV script (Script2)
 
