@@ -6,7 +6,8 @@
 
 ###### CONTEXT
 
-###### This (bash) script - Script3 - is written by Manon de Visser and serves as an example
+###### Author: Manon de Visser | Date: 2024-03-28 | Contact: devisser.manon@gmail.com
+###### This (bash) script - Script3 - is serves as an example
 ###### It is published with the Manuscript and it performs downstream analyses
 
 ###### With each command comes an explanation, which makes it easier to customize the script for ones own need

@@ -14,7 +14,8 @@
 
 ###### CONTEXT
 
-###### This (SLURM) script - Script1 - is written by Manon de Visser and serves as an example 
+###### Author: Manon de Visser | Date: 2024-03-28 | Contact: devisser.manon@gmail.com
+###### This (SLURM) script - Script1 - serves as an example 
 ###### It is published with the Manuscript and it performs upstream filename + folder structure arrangements
 
 ###### With each command comes an explanation, as to facilitate any user to customize the script for ones own need
@@ -27,8 +28,7 @@
 ### The working directory should have one or multiple subdirectories, which in turn have the BAM files of samples of two (or three) different phenotype/genotype classes (in the same folder)
 ### Depth files will be created, a sample ID column will be added, the files will be merged into one per spp/subdirectory, ...
 ### ... the format will be changed into CSV, the output will be split up based on the target names, and lastly some cleanup steps will get rid of intermediate files
-
-### !!! Make sure that the filenames of the input BAMs have a sample identifier, as well as a phenotype/genotype class identifier embedded
+### Make sure that the filenames of the input BAMs have a sample identifier, as well as a phenotype/genotype class identifier embedded
 
 ---
 

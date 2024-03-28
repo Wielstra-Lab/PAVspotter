@@ -11,6 +11,9 @@
 #SBATCH --mail-type=
 #SBATCH --mail-user=
 
+
+### Author: Manon de Visser | Date: 2024-03-28 | Contact: devisser.manon@gmail.com
+
 ### Load any modules required, at least MATLAB:
 
 module load [module]
