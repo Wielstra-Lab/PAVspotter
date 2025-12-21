@@ -429,10 +429,10 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument(
         "--categories",
         nargs="+",
-        default=["ST", "FT", "hatch"],
-        help="Base categories to select (e.g., ST FT hatch)",
+        default=["ST", "FT", "HC"],
+        help="Base categories to select (e.g., ST FT HC)",
     )
-    p.add_argument("--ctrl-category", default="hatch", help="Control category substring")
+    p.add_argument("--ctrl-category", default="HC", help="Control category substring")
     p.add_argument("--common-identifier", default="DN", help="Filename substring to select gene files")
     p.set_defaults(plot_figures=True)
     return p
