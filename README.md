@@ -27,9 +27,11 @@ Running Script1 (batch/SLURM)
 
 Running Script2 (batch/SLURM)
 
-- Step 4: Fill in (or remove) the #SBATCH lines + manually adjust Script2a for running remotely. Note there are two versions of Script2a: a version to initiate MATLAB, or a version to initiate Python - depending on your preferences 
-- (Extra step: Customize Script2b manually if necessary, but this is less likely to be necessary - again note the '.m' version is the MATLAB version, and the '.py' version is the Python version) 
-- Step 5: Run your preferred version of Script2a (MATLAB or Python), which will automatically kickstart Script2b, to generate output files/format required for Script3
+- Step 4: Fill in (or remove) the #SBATCH lines + manually adjust Script2a for running remotely. 
+Note there are two versions of Script2a: a version to initiate MATLAB, or a version to initiate Python - depending on your preferences 
+- (Extra step: Customize Script2b manually if necessary, but this is less likely to be necessary. 
+Again note the '.m' version is the MATLAB version, and the '.py' version is the Python version) 
+- Step 5: Run your preferred version of Script2a (MATLAB vs. Python), which will automatically kickstart Script2b, to generate output files/format required for Script3
 
 Running Script3 (bash)
 
@@ -45,7 +47,9 @@ Good luck!
 
 --
 
-PS: An example batch script (to be used in a Windows environment) was added in this repository as well
-It is meant for taking screenshots in IGV in an automated way, please see the Manuscript for more details on this
+PS: An example batch script (to be used in a Windows environment) was added in this repository as well.
+It is meant for taking screenshots in IGV in an automated way. If you need to run this in a Unix-based environment
+instead of in a Windows environment: no worries! The commands used (snapshotDirectory, goto, snapshot, etc.) can be executed 
+identically via IGV’s batch mode in Unix (for instance, like such: igv.sh -b script.txt). Please see the Manuscript for more details. 
 
 
