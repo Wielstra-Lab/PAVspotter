@@ -27,9 +27,9 @@ Running Script1 (batch/SLURM)
 
 Running Script2 (batch/SLURM)
 
-- Step 4: Fill in (or remove) the #SBATCH lines + manually adjust Script2a for running remotely
-- (Extra step: Customize Script2b manually if necessary, but this is less likely to be necessary) 
-- Step 5: Run Script2a, which will automatically kickstart Script2b, to generate output files/format required for Script3
+- Step 4: Fill in (or remove) the #SBATCH lines + manually adjust Script2a for running remotely. Note there are two versions of Script2a: a version to initiate MATLAB, or a version to initiate Python - depending on your preferences 
+- (Extra step: Customize Script2b manually if necessary, but this is less likely to be necessary - again note the '.m' version is the MATLAB version, and the '.py' version is the Python version) 
+- Step 5: Run your preferred version of Script2a (MATLAB or Python), which will automatically kickstart Script2b, to generate output files/format required for Script3
 
 Running Script3 (bash)
 
