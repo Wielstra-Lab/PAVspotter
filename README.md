@@ -48,8 +48,8 @@ Good luck!
 --
 
 PS: An example batch script (to be used in a Windows environment) was added in this repository as well.
-It is meant for taking screenshots in IGV in an automated way. If you need to run this in a Unix-based environment
-instead of in a Windows environment: no worries! The commands used (snapshotDirectory, goto, snapshot, etc.) can be executed 
+It is meant for taking screenshots in IGV in an automated way. If you need to run this in a Unix-based environment - such as macOS or Linux -
+instead of in a Windows environment: no need to worry! The commands used (snapshotDirectory, goto, snapshot, etc.) can be executed 
 identically via IGV’s batch mode in Unix (for instance, like such: igv.sh -b script.txt). Please see the Manuscript for more details. 
 
 
